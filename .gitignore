@@ -1,0 +1,16 @@
+dist/
+node_modules
+
+npm-debug.log
+
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+test/output/*
+
+err.log
+
+.idea
+*.iml

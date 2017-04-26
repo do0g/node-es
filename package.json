@@ -1,0 +1,17 @@
+{
+  "name": "node-es-future",
+  "version": "0.0.1",
+  "description": "Polyfill NodeJS to the ES2017 spec",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/index",
+    "build": "babel -d dist src"
+  },
+  "author": "do0g <do0g.dev@gmail.com> (http://www.mothdust.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
